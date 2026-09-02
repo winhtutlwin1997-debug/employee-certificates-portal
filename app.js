@@ -50,6 +50,15 @@ function renderProfile(employee) {
 }
 
 function certificatePreviewMarkup(certificate) {
+  if (certificate.usesFolderLink) {
+    return `
+      <div class="empty-state">
+        <p>This engineer's certificates are shared together in OneDrive.</p>
+        <p>Use the button above to open the certificate folder.</p>
+      </div>
+    `;
+  }
+
   const type = certificate.type.toLowerCase();
   if (type === "pdf") {
     return `<iframe title="${certificate.title}" src="${certificate.previewUrl}"></iframe>`;
@@ -69,6 +78,7 @@ function renderPreview(certificate) {
   selectedCertificate = certificate;
   previewTitle.textContent = certificate.title;
   openCertificate.href = certificate.url;
+  openCertificate.textContent = certificate.usesFolderLink ? "Open certificate folder" : "Open certificate";
   previewStage.innerHTML = certificatePreviewMarkup(certificate);
 
   document.querySelectorAll(".certificate-button").forEach((button) => {
