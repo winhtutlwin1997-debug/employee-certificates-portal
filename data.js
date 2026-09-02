@@ -1,5 +1,5 @@
 window.EMPLOYEE_PORTAL_DATA = {
-  "generatedAt": "2026-09-02T16:55:37",
+  "generatedAt": "2026-09-02T16:57:02",
   "employeeCount": 15,
   "employees": [
     {
@@ -2527,7 +2527,7 @@ window.EMPLOYEE_PORTAL_DATA = {
       "folderName": "Mr. Win Htut Lwin(BP-ENG-015)",
       "slug": "bp-eng-015-mr-win-htut-lwin",
       "initials": "MW",
-      "photoUrl": "",
+      "photoUrl": "photos/BP-ENG-015.jpg",
       "folderUrl": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgDYO7Qk_jXtS7tPYdEeTmevAT24g00c1OAvHQOq9GYVODE?e=kOtxNh",
       "certificates": [
         {
