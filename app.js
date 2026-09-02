@@ -43,8 +43,9 @@ function renderProfile(employee) {
       ${folderAction}
       <div class="company-contact">
         <strong>Brilliant Performance Co., Ltd.</strong>
-        <span>Tel: +66-2-453-0786, +66-2-453-0787 &nbsp; Fax: +66-2-453-0788</span>
-        <span>E-mail: sales@bpgroup-marine.com, sales@bpmail.net</span>
+        <span>Tel: +66-2-453-0786, +66-2-453-0787</span>
+        <span>Fax: +66-2-453-0788</span>
+        <span>E-mail : sales@bpgroup-marine.com, sales@bpmail.net.</span>
       </div>
     </div>
   `;
