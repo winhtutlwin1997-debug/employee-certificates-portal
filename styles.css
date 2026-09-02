@@ -164,6 +164,11 @@ body {
   gap: 8px;
 }
 
+.profile-action {
+  justify-self: start;
+  margin-top: 12px;
+}
+
 .profile-name {
   font-size: clamp(28px, 4vw, 42px);
   line-height: 1.05;
