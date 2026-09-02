@@ -196,6 +196,8 @@ if (!employees.length) {
   renderEmptyPortal();
 } else {
   const requestedSlug = readSelectedSlug();
+  // QR links include an employee slug, so do not expose the employee directory.
+  document.body.classList.toggle("employee-qr-page", Boolean(requestedSlug));
   const initialEmployee = employees.find((employee) => employee.slug === requestedSlug) || employees[0];
   renderEmployee(initialEmployee);
 }
