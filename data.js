@@ -1,5 +1,5 @@
 window.EMPLOYEE_PORTAL_DATA = {
-  "generatedAt": "2026-09-02T16:50:41",
+  "generatedAt": "2026-09-02T16:55:37",
   "employeeCount": 15,
   "employees": [
     {
