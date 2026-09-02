@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Employee QR Codes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="shell">
+    <main class="content">
+      <section class="certificates">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Step 2</p>
+            <h1>Employee QR Codes</h1>
+          </div>
+        </div>
+
+        <label class="search-wrap" for="base-url">
+          <span>Public page base URL</span>
+          <input id="base-url" type="url" placeholder="https://your-domain.com/portal/index.html">
+        </label>
+
+        <p class="muted">After you publish the portal, paste the final public URL here. A QR code will be created for each employee page.</p>
+
+        <div id="qr-grid" class="qr-grid"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="data.js"></script>
+  <script>
+    const data = window.EMPLOYEE_PORTAL_DATA || { employees: [] };
+    const baseUrlInput = document.getElementById("base-url");
+    const qrGrid = document.getElementById("qr-grid");
+
+    function defaultBaseUrl() {
+      const url = new URL(window.location.href);
+      url.pathname = url.pathname.replace(/qr-codes\.html$/i, "index.html");
+      url.search = "";
+      url.hash = "";
+      return url.toString();
+    }
+
+    function buildEmployeeUrl(baseUrl, slug) {
+      const url = new URL(baseUrl);
+      url.searchParams.set("employee", slug);
+      return url.toString();
+    }
+
+    function buildQrImage(employeeUrl) {
+      const qrUrl = new URL("https://api.qrserver.com/v1/create-qr-code/");
+      qrUrl.searchParams.set("size", "320x320");
+      qrUrl.searchParams.set("data", employeeUrl);
+      return qrUrl.toString();
+    }
+
+    function renderQrs() {
+      const baseUrl = baseUrlInput.value.trim() || defaultBaseUrl();
+      qrGrid.innerHTML = data.employees.map((employee) => {
+        const employeeUrl = buildEmployeeUrl(baseUrl, employee.slug);
+        const qrImage = buildQrImage(employeeUrl);
+        return `
+          <article class="qr-card">
+            <img src="${qrImage}" alt="QR code for ${employee.name}">
+            <div>
+              <strong>${employee.name}</strong><br>
+              <span class="muted">${employee.employeeId || "No employee ID"}</span>
+            </div>
+            <span class="url-box">${employeeUrl}</span>
+            <a class="primary-button" href="${employeeUrl}" target="_blank" rel="noopener">Open employee page</a>
+          </article>
+        `;
+      }).join("");
+    }
+
+    baseUrlInput.value = defaultBaseUrl();
+    baseUrlInput.addEventListener("input", renderQrs);
+    renderQrs();
+  </script>
+</body>
+</html>

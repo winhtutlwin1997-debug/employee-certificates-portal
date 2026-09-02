@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Employee Certificate Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <p class="eyebrow">Certificate Verification</p>
+        <h1>Employee Portal</h1>
+        <p class="muted">Scan a QR code to open an employee profile and verify certificates.</p>
+      </div>
+
+      <label class="search-wrap" for="employee-search">
+        <span>Search employee</span>
+        <input id="employee-search" type="search" placeholder="Type name or ID">
+      </label>
+
+      <div id="employee-list" class="employee-list"></div>
+    </aside>
+
+    <main class="content">
+      <section id="employee-profile" class="profile-card"></section>
+
+      <section class="certificates">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Documents</p>
+            <h2>Certificates</h2>
+          </div>
+          <button id="copy-link" class="ghost-button" type="button">Copy employee page link</button>
+        </div>
+
+        <div id="certificate-list" class="certificate-list"></div>
+      </section>
+
+      <section class="preview-card">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Preview</p>
+            <h2 id="preview-title">Select a certificate</h2>
+          </div>
+          <a id="open-certificate" class="primary-button" href="#" target="_blank" rel="noopener">Open certificate</a>
+        </div>
+        <div id="preview-stage" class="preview-stage"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
