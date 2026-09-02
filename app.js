@@ -34,14 +34,18 @@ function renderProfile(employee) {
   employeeProfile.innerHTML = `
     ${createPhotoMarkup(employee)}
     <div class="profile-meta">
-      <p class="eyebrow">Employee Record</p>
+      <p class="eyebrow">Employee Name</p>
       <h2 class="profile-name">${employee.name}</h2>
-      <p class="muted">This page is designed for certificate verification through a QR code.</p>
       <div class="identity-grid">
         <span class="chip">ID: ${idText}</span>
         <span class="chip">${totalCertificates} certificate${totalCertificates === 1 ? "" : "s"}</span>
       </div>
       ${folderAction}
+      <div class="company-contact">
+        <strong>Brilliant Performance Co., Ltd.</strong>
+        <span>Tel: +66-2-453-0786, +66-2-453-0787 &nbsp; Fax: +66-2-453-0788</span>
+        <span>E-mail: sales@bpgroup-marine.com, sales@bpmail.net</span>
+      </div>
     </div>
   `;
 }

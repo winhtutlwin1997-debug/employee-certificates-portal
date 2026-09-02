@@ -135,10 +135,11 @@ body {
 
 .profile-card {
   display: grid;
-  grid-template-columns: 140px 1fr;
+  grid-template-columns: 1fr;
   gap: 24px;
   padding: 28px;
-  align-items: center;
+  justify-items: center;
+  text-align: center;
 }
 
 .profile-photo,
@@ -162,11 +163,25 @@ body {
 .profile-meta {
   display: grid;
   gap: 8px;
+  justify-items: center;
 }
 
 .profile-action {
-  justify-self: start;
+  justify-self: center;
   margin-top: 12px;
+}
+
+.company-contact {
+  display: grid;
+  gap: 4px;
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.company-contact strong {
+  color: var(--ink);
 }
 
 .profile-name {
@@ -176,6 +191,7 @@ body {
 
 .identity-grid {
   display: flex;
+  justify-content: center;
   gap: 12px;
   flex-wrap: wrap;
   margin-top: 8px;
