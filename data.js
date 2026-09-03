@@ -1,5 +1,5 @@
 window.EMPLOYEE_PORTAL_DATA = {
-  "generatedAt": "2026-09-03T09:41:27",
+  "generatedAt": "2026-09-03T09:51:22",
   "employeeCount": 17,
   "employees": [
     {
@@ -722,7 +722,7 @@ window.EMPLOYEE_PORTAL_DATA = {
       "slug": "bp-eng-016-mr-aphichai-phothisat",
       "initials": "MA",
       "photoUrl": "",
-      "folderUrl": "",
+      "folderUrl": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgAecZl_erfQRb_aYlQ31QwZAf5XPuJ1tAn9Rauk7Wngsnc?e=KiAdJe",
       "certificates": []
     },
     {
@@ -1424,15 +1424,15 @@ window.EMPLOYEE_PORTAL_DATA = {
       "slug": "bp-eng-015-mr-laknam-lakngoenchai",
       "initials": "ML",
       "photoUrl": "",
-      "folderUrl": "",
+      "folderUrl": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgDZyYgV-GPsTZJZVAWVQmmEAcw_f9QiJHsmom0JMEhljuY?e=6dWnXX",
       "certificates": [
         {
           "title": "GOC Laknam Lakngoenchai",
           "filename": "1) GOC_Laknam Lakngoenchai.pdf",
           "type": "pdf",
-          "url": "../Mr.%20Laknam%20Lakngoenchai%28BP-ENG-015%29/1%29%20GOC_Laknam%20Lakngoenchai.pdf",
-          "previewUrl": "../Mr.%20Laknam%20Lakngoenchai%28BP-ENG-015%29/1%29%20GOC_Laknam%20Lakngoenchai.pdf",
-          "usesFolderLink": false
+          "url": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgDZyYgV-GPsTZJZVAWVQmmEAcw_f9QiJHsmom0JMEhljuY?e=6dWnXX",
+          "previewUrl": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgDZyYgV-GPsTZJZVAWVQmmEAcw_f9QiJHsmom0JMEhljuY?e=6dWnXX",
+          "usesFolderLink": true
         }
       ]
     },
@@ -2556,7 +2556,7 @@ window.EMPLOYEE_PORTAL_DATA = {
       "folderName": "Mr. Win Htut Lwin(BP-ENG-017)",
       "slug": "bp-eng-017-mr-win-htut-lwin",
       "initials": "MW",
-      "photoUrl": "photos/BP-ENG-017.jpg",
+      "photoUrl": "",
       "folderUrl": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgDYO7Qk_jXtS7tPYdEeTmevAT24g00c1OAvHQOq9GYVODE?e=kOtxNh",
       "certificates": [
         {
