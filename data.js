@@ -1,5 +1,5 @@
 window.EMPLOYEE_PORTAL_DATA = {
-  "generatedAt": "2026-09-04T14:21:38",
+  "generatedAt": "2026-09-04T14:26:30",
   "employeeCount": 17,
   "employees": [
     {
@@ -8,7 +8,7 @@ window.EMPLOYEE_PORTAL_DATA = {
       "folderName": "Miss Chatchalee  Lamtalthong(BP-ENG-013)",
       "slug": "bp-eng-013-miss-chatchalee-lamtalthong",
       "initials": "MC",
-      "photoUrl": "",
+      "photoUrl": "photos/BP-ENG-013.jpg",
       "folderUrl": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgAkb-4fV61GQLXY3vxCqXmiAaK7qyRSEwoTfLKuR5u0UBA?e=X1vljJ",
       "certificates": [
         {
@@ -235,7 +235,7 @@ window.EMPLOYEE_PORTAL_DATA = {
       "folderName": "Mr.  Wittaya Tuklang(BP-ENG-002)",
       "slug": "bp-eng-002-mr-wittaya-tuklang",
       "initials": "MW",
-      "photoUrl": "",
+      "photoUrl": "photos/BP-ENG-002.jpg",
       "folderUrl": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgBW5IV5Sy1sQpqX3vxfqnaYAev0JDewR34r_sAb3z0mahg?e=mnBEoW",
       "certificates": [
         {
@@ -454,7 +454,7 @@ window.EMPLOYEE_PORTAL_DATA = {
       "folderName": "Mr. Anan Charoensri(BP-ENG-003)",
       "slug": "bp-eng-003-mr-anan-charoensri",
       "initials": "MA",
-      "photoUrl": "",
+      "photoUrl": "photos/BP-ENG-003.jpg",
       "folderUrl": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgClT14CAYCLQYRRXiseiyqlAatS9Jdkep4I6UjSA-rGUgw?e=DI85EZ",
       "certificates": [
         {
@@ -721,7 +721,7 @@ window.EMPLOYEE_PORTAL_DATA = {
       "folderName": "Mr. Aphichai Phothisat(BP-ENG-016)",
       "slug": "bp-eng-016-mr-aphichai-phothisat",
       "initials": "MA",
-      "photoUrl": "",
+      "photoUrl": "photos/BP-ENG-016.jpg",
       "folderUrl": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgAecZl_erfQRb_aYlQ31QwZAf5XPuJ1tAn9Rauk7Wngsnc?e=KiAdJe",
       "certificates": []
     },
@@ -731,7 +731,7 @@ window.EMPLOYEE_PORTAL_DATA = {
       "folderName": "Mr. Chaironarong Chawengworakij(BP-ENG-012)",
       "slug": "bp-eng-012-mr-chaironarong-chawengworakij",
       "initials": "MC",
-      "photoUrl": "",
+      "photoUrl": "photos/BP-ENG-012.jpg",
       "folderUrl": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgBCjkC0gPuqSIrEUoJMNvfiAb8h1LzJlO9LJPqROXEYY2A?e=YVyPYZ",
       "certificates": [
         {
@@ -974,7 +974,7 @@ window.EMPLOYEE_PORTAL_DATA = {
       "folderName": "Mr. Chamnan Hekunthod(BP-ENG-007)",
       "slug": "bp-eng-007-mr-chamnan-hekunthod",
       "initials": "MC",
-      "photoUrl": "",
+      "photoUrl": "photos/BP-ENG-007.jpg",
       "folderUrl": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgDiqeNNlAcoRrwjSassZbY-AaghCliENae4ptNm7FsTaUc?e=oeUDdP",
       "certificates": [
         {
@@ -1065,7 +1065,7 @@ window.EMPLOYEE_PORTAL_DATA = {
       "folderName": "Mr. Jatupon Suachoi(BP-ENG-010)",
       "slug": "bp-eng-010-mr-jatupon-suachoi",
       "initials": "MJ",
-      "photoUrl": "",
+      "photoUrl": "photos/BP-ENG-010.jpg",
       "folderUrl": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgBRScey-BGiR4P8DW8eHPt3AdzT9oCU4bQtlm-BVXi0N7k?e=31Dplg",
       "certificates": [
         {
@@ -1220,7 +1220,7 @@ window.EMPLOYEE_PORTAL_DATA = {
       "folderName": "Mr. Lakeak Lakngoenchai(BP-ENG-009)",
       "slug": "bp-eng-009-mr-lakeak-lakngoenchai",
       "initials": "ML",
-      "photoUrl": "",
+      "photoUrl": "photos/BP-ENG-009.jpg",
       "folderUrl": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgCA8R75AJZ5TK-P0p81m_3GAaqc-5fBET4tQWtZGoG4XDY?e=IH23qT",
       "certificates": [
         {
@@ -1423,7 +1423,7 @@ window.EMPLOYEE_PORTAL_DATA = {
       "folderName": "Mr. Laknam Lakngoenchai(BP-ENG-015)",
       "slug": "bp-eng-015-mr-laknam-lakngoenchai",
       "initials": "ML",
-      "photoUrl": "",
+      "photoUrl": "photos/BP-ENG-015.jpg",
       "folderUrl": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgDZyYgV-GPsTZJZVAWVQmmEAcw_f9QiJHsmom0JMEhljuY?e=6dWnXX",
       "certificates": [
         {
@@ -1442,7 +1442,7 @@ window.EMPLOYEE_PORTAL_DATA = {
       "folderName": "Mr. Nutsamit Satavorasamit(BP-ENG-011)",
       "slug": "bp-eng-011-mr-nutsamit-satavorasamit",
       "initials": "MN",
-      "photoUrl": "",
+      "photoUrl": "photos/BP-ENG-011.jpg",
       "folderUrl": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgAc8Qgjn2DJTbvJHPCmCPLbAcz_ghLiid6UFtPyyLcNXGU?e=oSzKva",
       "certificates": [
         {
@@ -1533,7 +1533,7 @@ window.EMPLOYEE_PORTAL_DATA = {
       "folderName": "Mr. Pinyo Pangsree(BP-ENG-014)",
       "slug": "bp-eng-014-mr-pinyo-pangsree",
       "initials": "MP",
-      "photoUrl": "",
+      "photoUrl": "photos/BP-ENG-014.jpg",
       "folderUrl": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgCutJbYpj8VTL7Ut6mmp1fcAeaUiynm1ZoQUBmaAzCk0Ag?e=wbjA8V",
       "certificates": [
         {
@@ -1776,7 +1776,7 @@ window.EMPLOYEE_PORTAL_DATA = {
       "folderName": "Mr. Porntep Watawuti(BP-ENG-005)",
       "slug": "bp-eng-005-mr-porntep-watawuti",
       "initials": "MP",
-      "photoUrl": "",
+      "photoUrl": "photos/BP-ENG-005.jpg",
       "folderUrl": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgBa8AHcJRyvRpuq3ZXd_nS4ARKV4nD1U-O7_5kuV5cPt9s?e=JUDEfM",
       "certificates": [
         {
@@ -2011,7 +2011,7 @@ window.EMPLOYEE_PORTAL_DATA = {
       "folderName": "Mr. Satit Yoosom(BP-ENG-006)",
       "slug": "bp-eng-006-mr-satit-yoosom",
       "initials": "MS",
-      "photoUrl": "",
+      "photoUrl": "photos/BP-ENG-006.jpg",
       "folderUrl": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgAF77bJNn_dT5F4B-BUPpXCAZ31YgctAzIAz9qTHrjLMQQ?e=XkcLOu",
       "certificates": [
         {
@@ -2254,7 +2254,7 @@ window.EMPLOYEE_PORTAL_DATA = {
       "folderName": "Mr. Suchat Hawangchu(BP-ENG-008)",
       "slug": "bp-eng-008-mr-suchat-hawangchu",
       "initials": "MS",
-      "photoUrl": "",
+      "photoUrl": "photos/BP-ENG-008.jpg",
       "folderUrl": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgB1Qv32VBreTJU3x8cgX_BQARap8ZJ-JVD4f17d1c0rnrk?e=jaksR7",
       "certificates": [
         {
@@ -2353,7 +2353,7 @@ window.EMPLOYEE_PORTAL_DATA = {
       "folderName": "Mr. Thanee  Klinhom(BP-ENG-004)",
       "slug": "bp-eng-004-mr-thanee-klinhom",
       "initials": "MT",
-      "photoUrl": "",
+      "photoUrl": "photos/BP-ENG-004.jpg",
       "folderUrl": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgCXjxYm5z1RS7xJ_CPfGjtIAT7faa-ZSdDaPmb_aoPjI2M?e=MtVj06",
       "certificates": [
         {
@@ -2556,7 +2556,7 @@ window.EMPLOYEE_PORTAL_DATA = {
       "folderName": "Mr. Win Htut Lwin(BP-ENG-017)",
       "slug": "bp-eng-017-mr-win-htut-lwin",
       "initials": "MW",
-      "photoUrl": "",
+      "photoUrl": "photos/BP-ENG-017.jpg",
       "folderUrl": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgDYO7Qk_jXtS7tPYdEeTmevAT24g00c1OAvHQOq9GYVODE?e=kOtxNh",
       "certificates": [
         {
@@ -2711,7 +2711,7 @@ window.EMPLOYEE_PORTAL_DATA = {
       "folderName": "Mr.Sompoj Lakngoenchai(BP-ENG-001)",
       "slug": "bp-eng-001-mr-sompoj-lakngoenchai",
       "initials": "ML",
-      "photoUrl": "",
+      "photoUrl": "photos/BP-ENG-001.jpg",
       "folderUrl": "https://bpgroupmarine-my.sharepoint.com/:f:/g/personal/sompoj_bpgroup-marine_com/IgBywPMuhpkoRaLsrkb8qBWCARpSo4g8w8P8rfiC1Ch1b58?e=PVAjlS",
       "certificates": [
         {
